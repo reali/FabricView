@@ -25,7 +25,7 @@ Please note this is an alpha build, not feature complete, and can be buggy. If y
      ```javascript
        	dependencies {
                 compile fileTree(include: ['*.jar'], dir: 'libs')
-       	        compile 'com.github.antwankakki:FabricView:latest'
+       	        compile 'com.github.reali:FabricView:latest'
                 ...
        	}
      ```
@@ -48,7 +48,7 @@ Please note this is an alpha build, not feature complete, and can be buggy. If y
  * Performance (Redraw only parts of the screen that need to be redrawn)
  * Background Support
  * Images support
- * Undo/Redo Support - ToDo
+ * Undo/Redo Support
  * Drawing Text captured directly from keyboard. - ToDo
  * Allowing Resize when inserting images. - ToDo
  * onCanvasChanged Event - ToDo
@@ -60,5 +60,6 @@ Please note this is an alpha build, not feature complete, and can be buggy. If y
  * Transparency 
 
 ### Thanks to...
+ * Based on FabricView [antwankakki/FabricView](https://github.com/antwankakki/FabricView)
  * Image support [dbachelder](https://github.com/dbachelder)
  * getCanvasBitmap bugfix [eling13](https://github.com/eling13)
